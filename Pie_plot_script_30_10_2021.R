@@ -2,7 +2,7 @@
 # across maps of sampling expeditions.
 # The data will then be represented as a stacked bar chart, organised by seasonality.
 
-setwd('D:/Documents/Final_nutrients_sian')
+setwd('D:/Documents/')
 # You will need to set the path to the location
 # that you saved the following file
 # 'Biomasses_40.csv'
