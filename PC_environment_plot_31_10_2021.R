@@ -35,7 +35,7 @@ explan<-prcomp(Environment[,-c(11:14)],scale=T)
 
 hydrog_vector<-rep('Barents',dim(Environment)[1])
 hydrog_vector[which(Environment$temp <0 & Environment$salinity <34.8)]<- 'Arctic' #Arw
-hydrog_vector[which(Environment$temp >0 & Environment$temp <3 & Environment$salinity <34.8)]<- 'Melt' #Mw
+hydrog_vector[which(Environment$temp >0 & Environment$temp <3 & Environment$salinity <34.4)]<- 'Melt' #Mw
 hydrog_vector[which(Environment$temp >3 & Environment$salinity <34.8)]<- 'Coastal' #Cw
 hydrog_vector[which(Environment$temp >3 & Environment$salinity >34.8)]<- 'Atlantic' #AtW
 # Define Watermasses
